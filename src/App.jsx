@@ -1,8 +1,9 @@
+import "./App.css";
 import ProfileCard from "./ProfileCard";
 
 function App() {
   return (
-    <div>
+    <div className="app">
       <h1>My Dashboard</h1>
       <ProfileCard />
     </div>
