@@ -1,4 +1,8 @@
+import { useState } from 'react';
+
 function ProfileCard() {
+    const [likes, setLikes] = useState(0);
+
     return (
         <div className="card">
             <img
@@ -6,7 +10,10 @@ function ProfileCard() {
                 alt="Adams Shittu's Profile Image"
             />
             <h2>Adams Shittu</h2>
-            <p>React developer</p>
+            <p>React Developer</p>
+            <p>Likes: {likes}</p>
+
+            <button onClick={()=>setLikes(likes + 1)}>Like 👍</button>
         </div>
     );
 }
