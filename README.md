@@ -1,16 +1,34 @@
-# React + Vite
+# React Personal Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A beginner-friendly React project that demonstrates core React concepts
+including components, state, props, conditional rendering, and styling.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Profile card component
+- Like counter using useState
+- Online/offline status toggle
+- Dark and light mode
+- Reusable components
+- Styled with CSS
+- Version controlled with Git
 
-## React Compiler
+## Concepts Learned
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- JSX
+- Components
+- useState hook
+- Props and data flow
+- Conditional rendering
+- State-driven styling
 
-## Expanding the ESLint configuration
+## How to Run
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm install
+npm run dev
+```
+
+## Screenshot
+
+![React Dashboard Screenshot](./screenshots/react-dashboard.jpg)
