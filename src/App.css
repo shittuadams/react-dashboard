@@ -6,20 +6,36 @@ body {
 }
 
 .app {
+    min-height: 100vh;
+    background-color: #f4f6f8;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 30px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(50, 10, 10, 0.1);
 }
 
-.card {
+.dark {
+    background-color: #1e1e1e;
+    text-align: center;
+}
+
+/* .card {
     background: white;
     width: 300px;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+} */
+
+.dark .card {
+    background-color: #2c2c2c;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .card img {

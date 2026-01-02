@@ -1,17 +1,14 @@
 import { useState } from 'react';
 
-function ProfileCard() {
+function ProfileCard({name, bio, image}) {
     const [likes, setLikes] = useState(0);
     const [isOnline, setIsOnline] = useState(true);
 
     return (
         <div className="card">
-            <img
-                src="https://raw.githubusercontent.com/shittuadams/portfolio-image/c8b691e9702316a552a247c306fe04ed1b6693f7/profile-image.jpg"
-                alt="Adams Shittu's Profile Image"
-            />
-            <h2>Adams Shittu</h2>
-            <p>React Developer</p>
+            <img src={image} alt={name} />
+            <h2>{name}</h2>
+            <p>{bio}</p>
             <p>
                 Status:{" "}
                 {isOnline ? (
@@ -29,6 +26,7 @@ function ProfileCard() {
 
             <button onClick={()=>setLikes(likes + 1)}>Like 👍</button>
         </div>
+
     );
 }
 
