@@ -29,6 +29,10 @@ npm install
 npm run dev
 ```
 
+## Live Demo
+
+👉 https://shittuadams.github.io/react-dashboard/
+
 ## Screenshot
 
 ![React Dashboard Screenshot](./screenshots/react-dashboard.jpg)
